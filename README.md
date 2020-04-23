@@ -1,4 +1,4 @@
-# algorithm
+# Algorithms
 Some interesting algorithms implemented in Python
 ## Currently have:
 - von Emde Boas tree for fast lookup

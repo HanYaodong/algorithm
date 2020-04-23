@@ -1,0 +1,15 @@
+# env dir
+__pycache__/
+.idea
+.vscode
+.DS_Store
+.*.swp
+
+# jupyter notebook
+.ipynb_checkpoints
+profile_default/
+ipython_config.py
+
+# test files
+temp*
+

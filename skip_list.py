@@ -1,5 +1,5 @@
 """
-This file implements skip list.
+A not so neat implementation of skip list data structure.
 Skip list can do search, insert and delete in O(lg n) time,
 in O(n) space, with high probability
 """
@@ -21,7 +21,7 @@ class SkipListNode:
             -> Tuple[Optional[SkipListNode], List[SkipListNode]]:
         """
         search and return the node with value x
-        (node, predecessor, successor)
+        (node, path)
         """
         if self.value == x:
             # item found, go to level 0 to find the position
